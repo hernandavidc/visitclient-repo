@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,600");
+body {
+    margin: 0 !important;
+    height: 100%!important;
+    overflow: hidden!important;
+    width: 100% !important;
+    box-sizing: border-box!important;
+    font-family: "Roboto", sans-serif!important;
+  }
+  .right.was-validated label.form-label{color: #922222!important;}
+  .right.was-validated h2 small{  font-size: 15px!important;
+margin-left: 15px!important;
+color: #b73a3a!important;}
+  .right.was-validated input{border-bottom: 1px solid #e02929!important;}
+  .backRight {
+    position: absolute!important;
+    right: 0!important;
+    width: 50%!important;
+    height: 100%!important;
+    background: #03A9F4!important;
+  }
+
+  .backLeft {
+    position: absolute!important;
+    left: 0!important;
+    width: 50%!important;
+    height: 100%!important;
+    background-image: url("../images/business-Blue.jpg")!important;
+    background-size: auto 100%;
+  }
+
+  #back {
+    width: 100%!important;
+    height: 100%!important;
+    position: absolute!important;
+    z-index: -999!important;
+  }
+
+  .canvas-back {
+    position: absolute!important;
+    top: 0!important;
+    left: 0!important;
+    width: 100%!important;
+    height: 100%!important;
+    z-index: 10!important;
+  }
+
+  #slideBox {
+    width: 50%!important;
+    max-height: 100%!important;
+    height: 100%!important;
+    overflow: hidden!important;
+    margin-left: 50%!important;
+    position: absolute!important;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)!important;
+  }
+
+  .topLayer {
+    width: 200%!important;
+    height: 100%!important;
+    position: relative!important;
+    left: 0!important;
+    left: -100%!important;
+  }
+
+  label {
+    font-size: 0.8em!important;
+    text-transform: uppercase!important;
+  }
+
+  input {
+    background-color: transparent!important;
+    border: 0!important;
+    border-radius: 0!important;
+    outline: 0!important;
+    font-size: 1em!important;
+    padding: 8px 1px!important;
+    margin-top: 0.1em!important;
+  }
+
+  .left {
+    width: 50%!important;
+    height: 100%!important;
+    overflow: scroll!important;
+    background: #2C3034!important;
+    left: 0!important;
+    position: absolute!important;
+  }
+  .left label {
+    color: #e3e3e3!important;
+  }
+  .left input {
+    border-bottom: 1px solid #e3e3e3!important;
+    color: #e3e3e3!important;
+  }
+  .left input:focus, .left input:active {
+    border-color: #03A9F4!important;
+    color: #03A9F4!important;
+  }
+  .left input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #2C3034 inset!important;
+    -webkit-text-fill-color: #e3e3e3!important;
+  }
+  .left a {
+    color: #03A9F4!important;
+  }
+
+  .right {
+    width: 50%!important;
+    height: 100%!important;
+    overflow: scroll!important;
+    background: #f9f9f9!important;
+    right: 0!important;
+    position: absolute!important;
+  }
+  .right label {
+    color: #212121!important;
+  }
+  .right input {
+    border-bottom: 1px solid #212121!important;
+  }
+  .right input:focus, .right input:active {
+    border-color: #673AB7!important;
+  }
+  .right input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #f9f9f9 inset!important;
+    -webkit-text-fill-color: #212121!important;
+  }
+
+  .content {
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: center!important;
+    min-height: 100%!important;
+    width: 80%!important;
+    margin: 0 auto!important;
+    position: relative!important;
+  }
+
+  .content h2 {
+    font-weight: 300!important;
+    font-size: 2.6em!important;
+    margin: 0.2em 0 0.1em!important;
+  }
+
+  .left .content h2 {
+    color: #03A9F4!important;
+  }
+
+  .right .content h2 {
+    color: #3a50b7!important;
+  }
+
+  .form-element {
+    margin: 1.6em 0!important;
+  }
+  .form-element.form-submit {
+    margin: 1.6em 0 0!important;
+  }
+
+  .form-stack {
+    display: flex!important;
+    flex-direction: column!important;
+  }
+
+  .checkbox {
+    -webkit-appearance: none!important;
+    outline: none!important;
+    background-color: #e3e3e3!important;
+    border: 1px solid #e3e3e3!important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05)!important;
+    padding: 12px!important;
+    border-radius: 4px!important;
+    display: inline-block!important;
+    position: relative!important;
+  }
+
+  .checkbox:focus, .checkbox:checked:focus,
+  .checkbox:active, .checkbox:checked:active {
+    border-color: #03A9F4!important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1)!important;
+  }
+
+  .checkbox:checked {
+    outline: none!important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1)!important;
+  }
+
+  .checkbox:checked:after {
+    outline: none!important;
+    content: '\2713'!important;
+    color: #03A9F4!important;
+    font-size: 1.4em!important;
+    font-weight: 900!important;
+    position: absolute!important;
+    top: -4px!important;
+    left: 4px!important;
+  }
+
+  .form-checkbox {
+    display: flex!important;
+    align-items: center!important;
+  }
+  .form-checkbox label {
+    margin: 0 6px 0!important;
+    font-size: 0.72em!important;
+  }
+
+  button {
+    padding: 0.8em 1.2em!important;
+    margin: 0 10px 0 0!important;
+    width: auto!important;
+    font-weight: 600!important;
+    text-transform: uppercase!important;
+    font-size: 1em!important;
+    color: #fff!important;
+    line-height: 1em!important;
+    letter-spacing: 0.6px!important;
+    border-radius: 3px!important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1)!important;
+    border: 0!important;
+    outline: 0!important;
+    transition: all 0.25s!important;
+  }
+  button.signup {
+    background: #03A9F4!important;
+  }
+  button.login {
+    background: #3a50b7!important;
+  }
+  button.off {
+    background: none!important;
+    box-shadow: none!important;
+    margin: 0!important;
+  }
+  button.off.signup {
+    color: #03A9F4!important;
+  }
+  button.off.login {
+    color: #293d96!important;
+  }
+
+  button:focus, button:active, button:hover {
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1)!important;
+  }
+  button:focus.signup, button:active.signup, button:hover.signup {
+    background: #0288D1!important;
+  }
+  button:focus.login, button:active.login, button:hover.login {
+    background: #293d96!important;
+  }
+  button:focus.off, button:active.off, button:hover.off {
+    box-shadow: none!important;
+  }
+  button:focus.off.signup, button:active.off.signup, button:hover.off.signup {
+    color: #03A9F4!important;
+    background: #212121!important;
+  }
+  button:focus.off.login, button:active.off.login, button:hover.off.login {
+    color: #512DA8!important;
+    background: #e3e3e3!important;
+  }
+  .backLeft h2{margin-top:30%!important;}
+  .backLeft p img{
+    z-index: 99999999!important;
+    position: absolute!important;
+    right: 36%!important;
+    width: 28%!important;}
+  @media only screen and (max-width: 768px) {
+    #slideBox {
+      width: 80%!important;
+      margin-left: 20%!important;
+    }
+
+    .signup-info, .login-info {
+      display: none!important;
+    }
+    .backLeft h2, .backLeft p{display: none!important;}
+
+  }
