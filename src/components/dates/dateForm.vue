@@ -130,6 +130,7 @@
         },
         mounted () {
             this.fetchSellers(this.$store.state.auth.Tokken)
+            this.fetchClients(this.$store.state.auth.Tokken)
             this.fetchTypesIntention(this.$store.state.auth.Tokken)
         }
     }

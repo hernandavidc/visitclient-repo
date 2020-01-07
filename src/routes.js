@@ -5,6 +5,11 @@ export default [
     component: () => import('./views/Login.vue'),
     },
     {
+    path: '/logout',
+    name: 'logout',
+    component: () => import('./components/Authentication/Logout.vue'),
+    },
+    {
     path: '/',
     name: 'inicio',
     meta: { requiresAuth: true },

@@ -4,6 +4,5 @@ module.exports = {
     proxy: 'https://fryosstudios.com/'
   },
 
-  lintOnSave: false,
-  publicPath: 'https://www.fryosstudios.com/our/visitclients/Frontend/'
+  lintOnSave: false
 }
